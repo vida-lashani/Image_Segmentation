@@ -1,5 +1,6 @@
 # Image_Segmentation
 Lung Segmentation using Distance Regularized Level Set Evolution (DRLSE)
+
 This MATLAB code implements the Distance Regularized Level Set Evolution (DRLSE) method for segmenting lung MRI images. DRLSE is a technique used for contour extraction and object segmentation, designed to avoid the need for re-initialization by maintaining the regularity of the level set function during evolution.
 
 Overview
@@ -55,4 +56,3 @@ Initialization: Initialize the phi matrix to define the starting region for cont
 Edge Detection: Use the edge indicator function to guide the contour evolution toward object boundaries.
 Contour Evolution: The contour evolves by minimizing the energy function over a specified number of iterations.
 Output: Display the final segmented lung boundaries and the corresponding 3D phi matrix.
-The code will visualize the segmentation process with real-time 2D contour plots and 3D visualizations.
